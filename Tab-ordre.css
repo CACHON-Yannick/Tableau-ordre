@@ -1,0 +1,221 @@
+#bodys{
+    background-color:rgb(75, 75, 75);
+}
+.tete{
+    background-color: rgb(47, 47, 47);
+    height: 120px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px ;
+}
+#as{
+    font-size: 25px;
+    color: white;
+    margin: 20px 40px;
+    padding: 20px 10px;
+    text-decoration: none;
+    position:relative;
+    top: 35%;
+    transform: translateY(-50%);
+}
+.as1{
+    border: 2px solid white;
+    padding: 20px 10px;
+    background-color: white;
+}
+#as:hover{
+    font-size: 25px;
+    color: black;
+    border: 2px solid white;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+#corps{
+    background-color:white;
+    padding-bottom: 40px;
+    text-align: center;
+}
+h1{
+    padding: 20px 10px 15px 10px;
+}
+#gauche{
+    background-color:darkgray;
+    height: 520px;
+    text-align: center;
+    margin-left: 35px;
+}
+.paragraphe{
+    margin-top: 240px;
+}
+#droite-A{
+    background-color:darkgray;
+    height: 100px;
+    text-align: center;
+    float:right;
+    margin-right: 35px;
+}
+.paraA{
+    margin-top: 32px;
+}
+#droite-B{
+    background-color:darkgray;
+    margin-top: 20px;
+    text-align: center;
+    float:right;
+    margin-right: 35px;
+}
+.paraB{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.art{
+    background-color: dimgray;
+    float:left;
+    height: 300px;
+    width: 30%;
+    margin: 20px 10px 24px 10px;
+    text-align: center;
+}
+.article{
+    margin-top: 120px;
+}
+
+#pied{
+    background-color: rgb(47, 47, 47);
+    height: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.parposter{
+    color: white;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 25px;
+}
+
+@media screen and (Max-width: 1200px){
+    #as{
+        font-size: 25px;
+        color: white;
+        margin: 20px 20px;
+        padding: 20px 10px;
+        text-decoration: none;
+        position:relative;
+        top: 35%;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (Max-width: 1000px){
+    #as{
+        font-size: 20px;
+        color: white;
+        margin: 20px 10px;
+        padding: 10px 10px;
+        text-decoration: none;
+        position:relative;
+        top: 35%;
+        transform: translateY(-50%);
+    }
+    .as1{
+        border: 2px solid white;
+        padding: 10px 10px;
+        background-color: white;
+    }
+    #as:hover{
+        font-size: 20px;
+        color: black;
+        border: 2px solid white;
+        padding: 10px 10px;
+        background-color: white;
+    }
+
+    #corps{
+        background-color:white;
+        padding-bottom: 40px;
+        text-align: center;
+
+    }
+    #gauche{
+        background-color:darkgray;
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .paragraphe{
+        margin-top: 75px;
+    }
+    #droite-A{
+        background-color:darkgray;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        float:right;
+        margin-right: 0px;
+    }
+    #droite-B{
+        background-color:darkgray;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        float:right;
+        margin-right: 0px;
+    }
+}
+@media screen and (Max-width: 768px){
+    #as{
+        font-size: 18px;
+        margin: 20px 5px;
+        padding: 10px 10px;
+    }
+    .as1{
+        padding: 10px 10px;
+    }
+    #as:hover{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+
+    #gauche{
+        background-color:darkgray;
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .paragraphe{
+        padding-top: 75px;
+        margin-top: 0px;
+    }
+}
+@media screen and (Max-width: 650px){
+    #as{
+        font-size: 18px;
+        margin: 20px 5px;
+        padding: 5px 10px;
+    }
+    .as1{
+        padding: 5px 10px;
+    }
+    #as:hover{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    .art{
+        background-color: dimgray;
+        float:left;
+        height: 150px;
+        width: 100%;
+        margin: 20px 10px 24px 0px;
+        text-align: center;
+    }
+    .article{
+        margin-top: 60px;
+    }
+}
